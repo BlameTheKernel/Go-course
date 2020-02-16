@@ -20,3 +20,9 @@ source ~/.profile
 Check if everything is all right with the version
 go version
 go version go1.13.8 linux/amd64
+
+Each file has to have each own directory and everytime you modify something you must compile it with:
+~/go/src/hello$go build (inside the dir your program is, in this case hello.go)
+then:
+~/go/src/hello$./hello
+hello, world
