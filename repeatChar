@@ -1,0 +1,11 @@
+package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+func main() {
+	y := strings.Repeat("A", 10)
+	fmt.Println(y)
+}
